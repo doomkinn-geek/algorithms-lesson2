@@ -46,6 +46,8 @@ namespace task2
             TestBinarySearch(testCase3);
             TestBinarySearch(testCase4);
             TestBinarySearch(testCase5);
+
+            Console.WriteLine("Ассимптотическая сложность алгоритма - О(N/2)");
         }
 
         static void TestBinarySearch(TestCase testCase)
